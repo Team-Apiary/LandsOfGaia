@@ -7,6 +7,8 @@
   "downfall": 0.9,
   "effects": {
     "fog_color": 12638463,
+    "foliage_color": 3193720,
+    "grass_color": 5884300,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
@@ -25,8 +27,8 @@
       }
     ],
     "music_volume": 1.0,
-    "sky_color": 7849727,
-    "water_color": 4171492,
+    "sky_color": 7842047,
+    "water_color": 1360325,
     "water_fog_color": 329011
   },
   "features": [
@@ -83,9 +85,11 @@
     [
       "minecraft:glow_lichen",
       "minecraft:trees_jungle",
+      "minecraft:pale_moss_patch",
       "minecraft:pale_garden_flowers",
+      "minecraft:flower_pale_garden",
       "minecraft:patch_grass_jungle",
-      "minecraft:patch_firefly_bush_swamp",
+      "minecraft:patch_firefly_bush_near_water",
       "minecraft:vines"
     ],
     [
@@ -107,7 +111,7 @@
     "creature": [
       {
         "type": "minecraft:allay",
-        "maxCount": 4,
+        "maxCount": 1,
         "minCount": 1,
         "weight": 40
       }
