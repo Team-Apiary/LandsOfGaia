@@ -5,6 +5,7 @@
     "minecraft:canyon"
   ],
   "downfall": 0.9,
+  "temperature": 0.95,
   "effects": {
     "fog_color": 12638463,
     "foliage_color": 3193720,
@@ -113,7 +114,7 @@
         "type": "minecraft:allay",
         "maxCount": 1,
         "minCount": 1,
-        "weight": 40
+        "weight": 5
       }
     ],
     "misc": [],
@@ -177,6 +178,5 @@
     ],
     "water_ambient": [],
     "water_creature": []
-  },
-  "temperature": 0.95
+  }
 }
